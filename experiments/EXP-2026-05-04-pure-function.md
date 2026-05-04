@@ -23,6 +23,9 @@ Then the task list should remain unchanged and an error result should be returne
 
 Architecture:
 
+## Architecture
+
+```mermaid
 flowchart TD
     A[Start] --> B[Receive task list and selected task index]
     B --> C{Does task index exist?}
@@ -34,6 +37,7 @@ flowchart TD
     D --> I[End]
     F --> I
     H --> I
+```
 
 Strict constraint:
 Write the logic for this feature as a Pure Function. It must have no side effects, must be stateless, must not print to console, must not read user input, must not modify global variables, and must return a predictable output.
