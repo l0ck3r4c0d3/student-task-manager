@@ -1,21 +1,8 @@
-# Pure Function Experiment: Mark Task as Completed
+# EXP-2026-05-04 Pure Function Experiment
 
-## Date
+## What specific prompt did you provide?
 
-2026-05-04
-
-## Feature
-
-Mark Task as Completed
-
-## AI Prompt Used
-
-Create C++17 logic for the following Student Task Manager feature.
-
-Requirements:
-
-User Story:
-As a student, I want to mark an academic task as completed, so that I can clearly track which tasks are already finished.
+You are an AI software engineer working on a Student Task Manager project. IMPORTANT: Follow all instructions strictly. Do not invent features that are not described.
 
 Acceptance Criteria:
 
@@ -36,7 +23,6 @@ Then the task list should remain unchanged and an error result should be returne
 
 Architecture:
 
-```mermaid
 flowchart TD
     A[Start] --> B[Receive task list and selected task index]
     B --> C{Does task index exist?}
@@ -48,3 +34,20 @@ flowchart TD
     D --> I[End]
     F --> I
     H --> I
+
+Strict constraint:
+Write the logic for this feature as a Pure Function. It must have no side effects, must be stateless, must not print to console, must not read user input, must not modify global variables, and must return a predictable output.
+
+Use only C++17 and the C++ standard library.
+
+---
+
+## Did the AI succeed in writing a pure function on the first try?
+
+Yes, the AI was able to generate a mostly correct pure function on the first attempt.
+
+---
+
+## Did you have to adjust your requirements (BDD) or diagram to get a correct result?
+
+Nothing needed to be adjusted because the planned function by the AI was implemented perfectly, but it was necessary to add a file with the overall program structure in order to implement the planned function.
