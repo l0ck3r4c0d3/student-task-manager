@@ -6,6 +6,8 @@ Create a console-based Student Task Manager in C++ that helps students manage ac
 
 ## Stage 1: Project Setup
 
+Status: Complete
+
 - Create GitHub repository
 - Add README.md
 - Add AGENTS.md
@@ -14,6 +16,8 @@ Create a console-based Student Task Manager in C++ that helps students manage ac
 
 ## Stage 2: Basic Task Features
 
+Status: Complete
+
 - Create a Task structure
 - Add task title
 - Store tasks in a list
@@ -21,17 +25,24 @@ Create a console-based Student Task Manager in C++ that helps students manage ac
 
 ## Stage 3: Task Management
 
+Status: Complete
+
 - Delete tasks
 - Mark tasks as completed
 - Show task status
+- Implement Mark Task as Completed using the Command Pattern
 
 ## Stage 4: Deadlines and Priorities
+
+Status: Planned
 
 - Add deadline field
 - Add priority field
 - Display tasks with deadlines and priorities
 
 ## Stage 5: MVP Finalization
+
+Status: Planned
 
 - Improve menu navigation
 - Add input validation
@@ -54,3 +65,7 @@ Create a console-based Student Task Manager in C++ that helps students manage ac
 - Sort tasks by deadline
 - Filter tasks by status
 - Improve user interface
+
+## Scope Adjustments
+
+The "Mark task as completed" feature was implemented as a dedicated module using the Command Pattern. This keeps task completion logic separate from the console menu and prepares the codebase for future command-based features.
