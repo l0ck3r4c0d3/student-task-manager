@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F8FAFC;
+    color: #0F172A;
+}
+
+.app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.subtitle {
+    color: #64748B;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: #FFFFFF;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background: #2563EB;
+    color: white;
+}
+
+.secondary-btn {
+    background: #64748B;
+    color: white;
+}
+
+.danger-btn {
+    background: #DC2626;
+    color: white;
+}
+
+.task {
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.task-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.task-meta {
+    color: #64748B;
+    margin: 6px 0;
+}
+
+.status-done {
+    color: #16A34A;
+    font-weight: bold;
+}
+
+.message {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.success {
+    color: #16A34A;
+}
+
+.error {
+    color: #DC2626;
+}
