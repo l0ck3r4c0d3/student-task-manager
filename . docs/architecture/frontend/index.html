@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Student Task Manager</h1>
+        <p class="subtitle">Manage academic tasks, deadlines, priorities, and progress.</p>
 
+        <section class="card">
+            <h2>Add Task</h2>
+
+            <input id="titleInput" type="text" placeholder="Task title">
+            <input id="deadlineInput" type="date">
+
+            <select id="priorityInput">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <button id="addTaskBtn" class="primary-btn">Add Task</button>
+        </section>
+
+        <section class="card">
+            <h2>Tasks</h2>
+            <div id="message" class="message"></div>
+            <div id="taskList"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
